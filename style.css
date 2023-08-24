@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.image_container {
+	width: 500px;
+	height: 500px;
+	background-image: url(Images/IMG_20210101_163319.jpg);
+	background-repeat: no-repeat;
+	background-position: 70% 25%;
+	clip-path: circle(50% at 50% 50%);
+}
